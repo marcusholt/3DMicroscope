@@ -43,13 +43,33 @@ Metal hardware:
 -	8x M3 stainless steel washer
 -	14x M3 8mm cap head screw
 -	4x M2 6mm cap head screws
--	6x M4x6mm button head screws
+-	6x M4 6mm button head screws
 
 
 ### Build Instructions:
 
+This product was initially designed by Openflexure. Read about their work [here](https://openflexure.org/).
+
+To build the high resolution microscope model, simply order the parts above then follow the instructions set out on [this page](https://rwb27.github.io/openflexure_microscope/docs/).
+
+Once the microscope is assembled, install the [latest Raspbian Openflexure Image](https://openflexure.org/software/raspbian-openflexure/) onto an SD card and then install this onto the device. This contains the full operating system and the imaging software.
+
 
 ### Operation Instructions:
+
+Once the microscope is assembled, to obtain images as in the gallery below, follow these steps:
+
+1. Connect the microscope to power and a controlling terminal. Power the device on.
+2. Launch OpenFlexure connect
+3. Load a sample and optimise any parameters as necessary, such as the white balance
+4. Once you have the sample suitably positioned, capture an image and save it to a chosen location
+
+To complete analysis of a blood sample:
+
+1. Image a blood sample following the imaging steps above
+2. Save the notebook from this repository in the same directory as the chosen images
+3. Launch the notebook in a .ipynb compatible environment
+4. Follow the steps within the notebook to obtain parameters of the sample
 
 
 ### Gallery:
