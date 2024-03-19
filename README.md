@@ -54,6 +54,8 @@ To build the high resolution microscope model, simply order the parts above then
 
 Once the microscope is assembled, install the [latest Raspbian Openflexure Image](https://openflexure.org/software/raspbian-openflexure/) onto an SD card and then install this onto the device. This contains the full operating system and the imaging software.
 
+Finally, power and connect to the device, download the files from this repository, open the directory in the terminal and run 'bash install.sh'.
+
 
 ### Operation Instructions:
 
